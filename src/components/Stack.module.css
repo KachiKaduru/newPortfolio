@@ -1,0 +1,13 @@
+.stack {
+  display: grid;
+  gap: 1rem;
+
+  .stackImg {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  h4 {
+    text-transform: capitalize;
+  }
+}

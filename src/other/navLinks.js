@@ -4,8 +4,13 @@ import twitterImg from "../images/twitter.png";
 
 const socialLinks = [
   { id: 1, social: "GitHub", link: "https:/github.com/KachiKaduru", image: githubImg },
-  { id: 2, social: "Twitter", link: "#", image: twitterImg },
-  { id: 3, social: "LinkedIn", link: "#", image: linkedInImg },
+  { id: 2, social: "Twitter", link: "https://x.com/KachiiKaduru", image: twitterImg },
+  {
+    id: 3,
+    social: "LinkedIn",
+    link: "https://www.linkedin.com/in/kachi-kaduru-77993b222/",
+    image: linkedInImg,
+  },
 ];
 
 const navs = [

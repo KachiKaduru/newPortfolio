@@ -2,7 +2,7 @@ import styles from "./Navbar.module.css";
 import menuBtn from "../images/menu.svg";
 import exitBtn from "../images/exit.svg";
 
-import { socialLinks, navs } from "../links/navLinks";
+import { socialLinks, navs } from "../other/navLinks";
 import { useState } from "react";
 
 export default function Navbar() {
@@ -34,7 +34,7 @@ export default function Navbar() {
         <ul>
           {socialLinks.map((media) => (
             <li key={media.id}>
-              <a href={media.link}>
+              <a href={media.link} target="_blank">
                 <img src={media.image} alt="GitHub" />
               </a>
             </li>
