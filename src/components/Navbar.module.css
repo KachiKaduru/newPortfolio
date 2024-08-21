@@ -1,0 +1,53 @@
+.nav {
+  justify-content: end;
+  position: relative;
+  display: flex;
+
+  .links {
+    display: flex;
+    gap: 5rem;
+  }
+  .remove {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .pryUl {
+    gap: 6rem;
+  }
+
+  a {
+    color: var(--darkgrey);
+  }
+
+  img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    .btn {
+      display: block;
+    }
+
+    .links {
+      background: grey;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .pryUl {
+      gap: 3rem;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.logo {
+  background: var(--gradient);
+
+  h1 {
+    background-color: white;
+    mix-blend-mode: screen;
+  }
+}
