@@ -1,13 +1,23 @@
 .stack {
+  justify-items: center;
   display: grid;
   gap: 1rem;
 
   .stackImg {
-    width: 20rem;
-    height: 20rem;
+    width: 12rem;
+    height: 12rem;
+    /* aspect-ratio: 1/1; */
+    /* border: 1px solid red; */
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
-  h4 {
+  h3 {
     text-transform: capitalize;
+    text-align: centers;
+    color: var(--darkgrey);
   }
 }

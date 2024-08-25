@@ -7,7 +7,7 @@ import reactImg from "../images/react.svg";
 import sassImg from "../images/sass.svg";
 import tailwindImg from "../images/tailwind.svg";
 
-const techStackArr = [
+export const techStackArr = [
   { id: 1, stack: "HTML", img: htmlImg },
   { id: 2, stack: "CSS", img: cssImg },
   { id: 3, stack: "JavaScript", img: javascriptImg },

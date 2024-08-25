@@ -1,2 +1,9 @@
 .stackStn {
+  h2 {
+    padding: 4rem 0 0;
+  }
+
+  p {
+    padding: 0 0 4rem;
+  }
 }

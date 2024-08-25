@@ -1,13 +1,13 @@
 import styles from "./Stack.module.css";
 
-export default function Stack() {
+export default function Stack({ tech }) {
   return (
     <div className={styles.stack}>
       <div className={styles.stackImg}>
-        <img src="" alt="stack-img" />
+        <img src={tech.img} alt="stack-img" />
       </div>
 
-      <h4>stack</h4>
+      <h3>{tech.stack}</h3>
     </div>
   );
 }
